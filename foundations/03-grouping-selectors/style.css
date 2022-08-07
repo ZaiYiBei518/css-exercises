@@ -1,0 +1,16 @@
+<style>
+
+.one {
+    color: white;
+    background-color: black;
+}
+.two {
+    background-color: yellow;
+}
+.both {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+/*Problems with the first button. Solution shows using two classes instead of
+creating one class for both. Will check if the solution works*/
+</style>
