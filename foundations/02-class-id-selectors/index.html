@@ -8,10 +8,22 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p>Number 1 - I'm a class!</p>
-    <div>Number 2 - I'm one ID.</div>
-    <p>Number 3 - I'm a class, but cooler!</p>
-    <div>Number 4 - I'm another ID.</div>
-    <p>Number 5 - I'm a class!</p>
+    <p class="odd-color odd-fonts">Number 1 - I'm a class!</p>
+    <div id="div2">Number 2 - I'm one ID.</div>
+    <p class="odd-color odd-fonts" style="font-size: 24px;">Number 3 - I'm a class, but cooler!</p>
+    <div id="div4">Number 4 - I'm another ID.</div>
+    <p class="odd-color odd-fonts">Number 5 - I'm a class!</p>
+    <style>
+      .odd-color {background-color: #FFC0CB}
+      .odd-fonts {font-family: verdana, "DejaVu Sans", sans-serif;}
+      #div2 {color: #00F;
+      font-size: 36px;}
+      #div4 {background-color: #90ee90;
+      font-size: 24px;
+      font-weight: bold;}
+    </style>
+    <!--Better to create an odd class and combine the two properties. It's more efficient-->
+    <!--ID elements are correct. Next exercise use an external CSS file-->
+    <!--Could have created a second class for element number 3 for efficiency-->
   </body>
 </html>
