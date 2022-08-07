@@ -1,4 +1,8 @@
-<style>
+.one, 
+.two {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
 
 .one {
     color: white;
@@ -7,10 +11,6 @@
 .two {
     background-color: yellow;
 }
-.both {
-    font-size: 28px;
-    font-family: Helvetica, "Times New Roman", sans-serif;
-}
 /*Problems with the first button. Solution shows using two classes instead of
-creating one class for both. Will check if the solution works*/
-</style>
+creating one class for both*/
+/*Solution correct, Remove style blocks from CSS Files*/
